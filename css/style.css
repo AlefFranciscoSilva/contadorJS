@@ -7,10 +7,6 @@
   font-family: "Open Sans", sans-serif;
 }
 
-body {
-  background-color: rgb(177, 225, 255);
-}
-
 .central {
   width: 100vw;
   height: 100vh;
@@ -18,15 +14,14 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: rgb(177, 225, 255);
 }
 
 .titulo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
   margin: 15px;
   text-align: center;
+  font-size: 1.5rem;
 }
 
 h1,
@@ -48,7 +43,6 @@ button {
 
 #counter {
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
@@ -56,5 +50,5 @@ button {
   display: flex;
   align-items: center;
   margin: 0 20px;
-  font-size: 16pt;
+  font-size: 5rem;
 }
